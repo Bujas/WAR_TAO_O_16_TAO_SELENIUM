@@ -16,7 +16,7 @@ public class GoogleTextSearch {
     @Given("^I am on Google search page$")
     public void openGoogleSearch() {
         // Skonfiguruj sterownik przeglądarki
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
         // Uruchom nowy egzemplarz przeglądarki Chrome
         driver = new ChromeDriver();
         // Zmaksymalizuj okno przeglądarki

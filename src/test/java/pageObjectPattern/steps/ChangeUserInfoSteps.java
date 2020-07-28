@@ -25,7 +25,7 @@ public class ChangeUserInfoSteps {
     @Given("^User is logged in to CodersLab shop$")
     public void userIsLooggedInToCodersLabShop() {
         System.setProperty("webdriver.chrome.driver",
-                "src/main/resources/drivers/chromedriver");
+                "src/main/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();

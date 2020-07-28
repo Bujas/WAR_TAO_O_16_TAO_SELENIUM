@@ -1,10 +1,12 @@
 package przyklad1;
 
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By;
-import org.junit.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SearchTest {
 
@@ -13,7 +15,7 @@ public class SearchTest {
     @Before
     public void setUp() {
         System.setProperty("webdriver.chrome.driver",
-                "src/main/resources/drivers/chromedriver");
+                "src/main/resources/drivers/chromedriver.exe");
         // Uruchom nowy egzemplarz przeglądarki Chrome
         driver = new ChromeDriver();
         // Zmaksymalizuj okno przeglądarki

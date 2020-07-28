@@ -23,7 +23,7 @@ public class HotelDominicCreateAccountsSteps {
     @Given("^an open browser with qloapps.coderslab.pl")
     public void anOpenBrowserWithQloappsCoderslabPl() {
         // Skonfiguruj sterownik przeglądarki
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
         // Uruchom nowy egzemplarz przeglądarki Chrome
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

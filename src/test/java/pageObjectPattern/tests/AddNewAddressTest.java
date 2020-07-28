@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class AddNewAddressTest {
     private final String CHROME_DRIVER_PROPERTY = "webdriver.chrome.driver";
-    private final String CHROME_DRIVER_PATH = "src/main/resources/drivers/chromedriver";
+    private final String CHROME_DRIVER_PATH = "src/main/resources/drivers/chromedriver.exe";
     private final String URL = "https://prod-kurs.coderslab.pl/index.php?controller=authentication";
     private final String USER = "michal.dobrzycki@coderslab.pl";
     private final String PASSWORD = "CodersLab";

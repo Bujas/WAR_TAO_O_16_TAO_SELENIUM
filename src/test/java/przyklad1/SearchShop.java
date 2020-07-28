@@ -17,7 +17,7 @@ public class SearchShop {
     @Before
     public void setUp() {
         System.setProperty("webdriver.chrome.driver",
-                "src/main/resources/drivers/chromedriver");
+                "src/main/resources/drivers/chromedriver.exe");
         // Uruchom nowy egzemplarz przeglądarki Chrome
         driver = new ChromeDriver();
         // Zmaksymalizuj okno przeglądarki

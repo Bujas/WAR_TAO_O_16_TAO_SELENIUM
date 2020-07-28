@@ -8,8 +8,9 @@ public class LoginPage {
     private static WebDriver driver;
 
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
+        LoginPage.driver = driver;
     }
+
     public void loginAs(String email, String password) {
         WebElement loginInput = driver.findElement(By.name("email"));
         loginInput.click();

@@ -30,7 +30,7 @@ public class Zadanie2 {
     public void setUp() {
         // Uruchom nowy egzemplarz przeglądarki Chrome
         System.setProperty("webdriver.chrome.driver",
-                "src/main/resources/drivers/chromedriver");
+                "src/main/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         // Zmaksymalizuj okno przeglądarki
         driver.manage().window().maximize();
